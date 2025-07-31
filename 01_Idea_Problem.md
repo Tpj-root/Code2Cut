@@ -100,3 +100,64 @@ Common **capacitor types** on motherboards (SMD or through-hole):
 
 
 
+# Capacitor FAQ
+
+## ❓ Why are capacitors used?
+
+Capacitors are used to **store and release electrical energy**, and serve several key functions:
+
+- **Filtering**: Smooth out voltage in power supplies (remove ripple).
+- **Decoupling/Bypassing**: Remove noise from power lines to ICs.
+- **Coupling**: Pass AC signals while blocking DC.
+- **Timing**: Used with resistors to create time delays.
+- **Stabilizing**: Maintain voltage levels in circuits.
+
+---
+
+## 📍 Where are capacitors used?
+
+- **Power supplies**: Smoothing rectified voltage (bulk electrolytics).
+- **Motherboards**: Filtering noise near CPU, RAM, chipset (MLCC, polymer).
+- **Audio circuits**: Coupling signals between stages.
+- **Timers (e.g., 555 IC)**: Setting delay or pulse width.
+- **Switching circuits**: Snubbers to protect switches and relays.
+
+---
+
+## ⏰ When is a capacitor a must?
+
+- If there's **noise or ripple** in power lines (decoupling).
+- When separating **AC signals** from DC bias (coupling).
+- For **startup delays** or oscillators (RC timing).
+- In high-speed digital circuits (e.g., CPU, GPU VRMs).
+- To stabilize **voltage regulators** or DC-DC converters.
+
+---
+
+## 📏 How to choose the correct value?
+
+### Basic rules:
+
+| Purpose        | Typical Value Range | Notes                         |
+|----------------|---------------------|-------------------------------|
+| Decoupling ICs | 0.01µF – 0.1µF      | Place close to IC power pins  |
+| Bulk filtering | 10µF – 1000µF       | Larger for more current load  |
+| Audio coupling | 1µF – 10µF          | Depends on impedance match    |
+| Timing circuits| Depends on R + C    | Use formula `T = R × C`       |
+
+### Tips:
+- Check **voltage rating**: Use at least **1.5× circuit voltage**.
+- For power supply: Use **low ESR** types like polymer.
+- Place **one ceramic capacitor per IC**, close to its Vcc pin.
+
+---
+
+## 📘 Example: Decoupling on Microcontroller
+
+```md
+- Use 0.1µF ceramic capacitor between Vcc and GND
+- Place physically close to the microcontroller’s power pins
+
+
+
+
