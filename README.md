@@ -22,28 +22,52 @@ We turn your code into precise cuts. From digital design to real-world build —
 
 ---
 
-## 1. Idea / Problem  
-Start with identifying a problem or a need — what should your CNC machine solve or do?
+## 1. Idea / Problem
 
-## 2. Research & Plan  
-Study existing solutions, define goals, list needed tools/components, and outline steps.
+What exactly do I want to build or solve with this CNC machine? Define the real use-case — not just "make a machine", but why and for what.
 
-## 3. Design (Hardware/Software)  
-Create digital models (CAD), circuit diagrams, and write control software or firmware.
+## 2. Research & Plan
 
-## 4. Build Prototype  
-Assemble the machine using available materials. It's okay if it's rough — it’s just a start.
+Time to study. What similar projects already exist? What components will I need? Make a parts list, gather reference designs, and plan out the full process step-by-step.
 
-## 5. Test & Debug  
-Run basic operations. Fix wiring, software bugs, mechanical alignment, or unexpected behavior.
+## 3. Design (Hardware/Software)
 
-## 6. Improve / Optimize  
-Make improvements for speed, accuracy, usability, or safety based on testing results.
+Start designing:
 
-## 7. Finalize & Document  
-Polish the build, clean up the code, and write documentation (manual, BOM, wiring diagrams).
+    Hardware → mechanical parts, frame, motors
 
-## 8. Share or Deploy  
-Deploy your machine in real-world use — or share your design/code online for others to use.
+    Electronics → wiring, drivers, controller board
+
+    Software → firmware, interface, G-code handling
+
+Think both digital and physical.
+
+## 4. Build Prototype
+
+Don’t wait for perfection. Start building with what I have. Use scrap/test parts if needed. Expect mistakes — this is for learning and shaping the idea into something real.
+
+## 5. Test & Debug
+
+Run the first tests. Expect issues: motor not moving, wrong axis, loose bolts, bad signals. Go one by one, log what fails, and fix it methodically.
+
+## 6. Improve / Optimize
+
+Now fine-tune. Make it smoother, faster, and more precise. Maybe redesign mounts, tweak code, or add safety features. Every small fix matters.
+
+## 7. Finalize & Document
+
+Once it works well:
+
+    Clean up wiring
+
+    Label components
+
+    Write README, wiring diagrams, code comments
+
+    Prepare to explain it to others or future-me
+
+## 8. Share or Deploy
+
+Set it up for actual use in the lab — or publish it. Sharing helps others, and feedback improves the design. Bonus: others might join or support the project.
 
 ---
