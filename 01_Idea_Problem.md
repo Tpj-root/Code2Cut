@@ -170,7 +170,7 @@ For decoupling:
 
 This helps filter high-frequency noise before it reaches the IC.
 
-```
+
 
 
 ## 2. Resistors 
