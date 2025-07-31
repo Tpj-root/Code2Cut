@@ -50,7 +50,7 @@ Common **SMD (Surface Mount Device)** parts on a motherboard:
 
 ### Index
 1. [Capacitors](#1-capacitors--filtering--stabilizing-voltage)  
-2. [Resistors](#2-resistors--current-limiting--voltage-division)  
+2. [Resistors](#2-Resistors)  
 3. [Inductors (Coils)](#3-inductors-coils--power-filtering)  
 4. [MOSFETs](#4-mosfets--power-switching-used-in-vrms)  
 5. [Diodes](#5-diodes--protection--rectification)  
@@ -63,6 +63,7 @@ Common **SMD (Surface Mount Device)** parts on a motherboard:
 12. [Connectors & Pads](#12-connectors--pads--for-usb-fan-sata-etc)
 
 
+1. [Capacitors](#1-capacitors--filtering--stabilizing-voltage)  
 
 ## 1. Capacitors – Filtering & stabilizing voltage
 
@@ -158,6 +159,72 @@ Capacitors are used to **store and release electrical energy**, and serve severa
 - Use 0.1µF ceramic capacitor between Vcc and GND
 - Place physically close to the microcontroller’s power pins
 
+
+
+
+For decoupling:
+
+    One leg of the 0.1 µF ceramic capacitor goes to Vcc (power)
+
+    Other leg goes to GND (ground)
+
+📌 Place it as close as possible to the power pins of the IC.
+
+This helps filter high-frequency noise before it reaches the IC.
+
+
+
+## 2. Resistors 
+
+ - Resistors current limiting voltage division
+
+common **resistor types**:
+
+---
+
+### 1. **Carbon Film Resistors**
+
+* Cheap, common
+* ±5% tolerance
+* Used in general circuits
+
+### 2. **Metal Film Resistors**
+
+* Better precision (±1%)
+* Lower noise
+* Used in audio, measurement
+
+### 3. **Wire-Wound Resistors**
+
+* High power rating
+* Used in power supplies, motor drives
+
+### 4. **SMD Resistors**
+
+* Surface-mount type
+* Tiny, no leads
+* Used on PCBs, motherboards
+
+### 5. **Variable Resistors (Potentiometers)**
+
+* Adjustable resistance
+* Used for volume, brightness, tuning
+
+### 6. **Fusible Resistors**
+
+* Acts like fuse + resistor
+* Protect circuits from overcurrent
+
+### 7. **Thermistors**
+
+* Resistance changes with temperature
+* NTC (↓R with ↑T), PTC (↑R with ↑T)
+* Used in temperature sensors
+
+### 8. **Photoresistors (LDR)**
+
+* Resistance changes with light
+* Used in light sensors
 
 
 
