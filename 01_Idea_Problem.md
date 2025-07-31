@@ -63,8 +63,6 @@ Common **SMD (Surface Mount Device)** parts on a motherboard:
 12. [Connectors & Pads](#12-connectors--pads--for-usb-fan-sata-etc)
 
 
-1. [Capacitors](#1-capacitors--filtering--stabilizing-voltage)  
-
 ## 1. Capacitors – Filtering & stabilizing voltage
 
 Common **capacitor types** on motherboards (SMD or through-hole):
@@ -171,8 +169,8 @@ For decoupling:
 📌 Place it as close as possible to the power pins of the IC.
 
 This helps filter high-frequency noise before it reaches the IC.
-```
 
+```
 
 
 ## 2. Resistors 
