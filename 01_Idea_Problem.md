@@ -14,3 +14,8 @@
 
 
 
+In the next 20 years, a lot of hardware will end up as junk.
+Some people will focus on recycling,
+but I want to focus on how to reuse it — like old chips, motherboards, and displays — and use them effectively.
+
+So, I plan to study hardware — how it works and how to use it effectively in my spare time.
