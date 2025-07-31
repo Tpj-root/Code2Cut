@@ -161,7 +161,7 @@ Capacitors are used to **store and release electrical energy**, and serve severa
 
 
 
-
+```
 For decoupling:
 
     One leg of the 0.1 µF ceramic capacitor goes to Vcc (power)
@@ -171,6 +171,7 @@ For decoupling:
 📌 Place it as close as possible to the power pins of the IC.
 
 This helps filter high-frequency noise before it reaches the IC.
+```
 
 
 
