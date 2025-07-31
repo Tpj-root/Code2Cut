@@ -26,7 +26,6 @@ We turn your code into precise cuts. From digital design to real-world build —
 
 What exactly do I want to build or solve with this CNC machine? Define the real use-case — not just "make a machine", but why and for what.
 
-
 [Links](01_Idea_Problem.md)
 
 
@@ -35,6 +34,9 @@ What exactly do I want to build or solve with this CNC machine? Define the real 
 ## 2. Research & Plan
 
 Time to study. What similar projects already exist? What components will I need? Make a parts list, gather reference designs, and plan out the full process step-by-step.
+
+
+---
 
 ## 3. Design (Hardware/Software)
 
